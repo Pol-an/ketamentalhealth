@@ -1,0 +1,64 @@
+2025-01-03 14:08:12,786 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-03 14:08:12,786 INFO: [33mPress CTRL+C to quit[0m
+2025-01-03 14:08:12,790 INFO:  * Restarting with stat
+2025-01-03 14:08:13,045 WARNING:  * Debugger is active!
+2025-01-03 14:08:13,050 INFO:  * Debugger PIN: 398-547-792
+2025-01-03 14:08:14,705 INFO: 127.0.0.1 - - [03/Jan/2025 14:08:14] "GET / HTTP/1.1" 200 -
+2025-01-03 14:08:14,847 INFO: 127.0.0.1 - - [03/Jan/2025 14:08:14] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-01-03 14:08:14,848 INFO: 127.0.0.1 - - [03/Jan/2025 14:08:14] "GET /static/js/dark_mode.js HTTP/1.1" 200 -
+2025-01-03 14:08:16,098 INFO: User 'admin' logged in.
+2025-01-03 14:08:16,098 INFO: 127.0.0.1 - - [03/Jan/2025 14:08:16] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-01-03 14:08:16,117 INFO: 127.0.0.1 - - [03/Jan/2025 14:08:16] "GET /dashboard HTTP/1.1" 200 -
+2025-01-03 14:08:16,138 INFO: 127.0.0.1 - - [03/Jan/2025 14:08:16] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-03 14:08:16,141 INFO: 127.0.0.1 - - [03/Jan/2025 14:08:16] "[36mGET /static/js/dark_mode.js HTTP/1.1[0m" 304 -
+2025-01-03 14:09:04,336 INFO: User 'admin' logged out.
+2025-01-03 14:09:04,336 INFO: 127.0.0.1 - - [03/Jan/2025 14:09:04] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-01-03 14:09:04,341 INFO: 127.0.0.1 - - [03/Jan/2025 14:09:04] "GET /login HTTP/1.1" 200 -
+2025-01-03 14:09:04,361 INFO: 127.0.0.1 - - [03/Jan/2025 14:09:04] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-03 14:09:04,363 INFO: 127.0.0.1 - - [03/Jan/2025 14:09:04] "[36mGET /static/js/dark_mode.js HTTP/1.1[0m" 304 -
+2025-01-03 14:09:10,151 WARNING: Failed login attempt for username 'Da'.
+2025-01-03 14:09:10,151 INFO: 127.0.0.1 - - [03/Jan/2025 14:09:10] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-01-03 14:09:10,156 INFO: 127.0.0.1 - - [03/Jan/2025 14:09:10] "GET /login HTTP/1.1" 200 -
+2025-01-03 14:09:10,180 INFO: 127.0.0.1 - - [03/Jan/2025 14:09:10] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-03 14:09:10,182 INFO: 127.0.0.1 - - [03/Jan/2025 14:09:10] "[36mGET /static/js/dark_mode.js HTTP/1.1[0m" 304 -
+2025-01-03 14:09:13,095 INFO: User 'admin' logged in.
+2025-01-03 14:09:13,095 INFO: 127.0.0.1 - - [03/Jan/2025 14:09:13] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-01-03 14:09:13,102 INFO: 127.0.0.1 - - [03/Jan/2025 14:09:13] "GET /dashboard HTTP/1.1" 200 -
+2025-01-03 14:09:13,130 INFO: 127.0.0.1 - - [03/Jan/2025 14:09:13] "[36mGET /static/js/dark_mode.js HTTP/1.1[0m" 304 -
+2025-01-03 14:09:13,130 INFO: 127.0.0.1 - - [03/Jan/2025 14:09:13] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-03 14:09:15,706 INFO: 127.0.0.1 - - [03/Jan/2025 14:09:15] "GET /create_user HTTP/1.1" 200 -
+2025-01-03 14:09:15,725 INFO: 127.0.0.1 - - [03/Jan/2025 14:09:15] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-03 14:09:15,728 INFO: 127.0.0.1 - - [03/Jan/2025 14:09:15] "[36mGET /static/js/dark_mode.js HTTP/1.1[0m" 304 -
+2025-01-03 14:09:19,441 INFO: 127.0.0.1 - - [03/Jan/2025 14:09:19] "GET /dashboard HTTP/1.1" 200 -
+2025-01-03 14:09:19,460 INFO: 127.0.0.1 - - [03/Jan/2025 14:09:19] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-03 14:09:19,464 INFO: 127.0.0.1 - - [03/Jan/2025 14:09:19] "[36mGET /static/js/dark_mode.js HTTP/1.1[0m" 304 -
+2025-01-03 14:11:51,097 INFO: 127.0.0.1 - - [03/Jan/2025 14:11:51] "GET /dashboard?page=2&search= HTTP/1.1" 200 -
+2025-01-03 14:11:51,118 INFO: 127.0.0.1 - - [03/Jan/2025 14:11:51] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-03 14:11:51,121 INFO: 127.0.0.1 - - [03/Jan/2025 14:11:51] "[36mGET /static/js/dark_mode.js HTTP/1.1[0m" 304 -
+2025-01-03 14:11:52,226 INFO: 127.0.0.1 - - [03/Jan/2025 14:11:52] "GET /dashboard?page=1&search= HTTP/1.1" 200 -
+2025-01-03 14:11:52,246 INFO: 127.0.0.1 - - [03/Jan/2025 14:11:52] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-03 14:11:52,247 INFO: 127.0.0.1 - - [03/Jan/2025 14:11:52] "[36mGET /static/js/dark_mode.js HTTP/1.1[0m" 304 -
+2025-01-03 14:16:48,989 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-03 14:16:48,990 INFO: [33mPress CTRL+C to quit[0m
+2025-01-03 14:16:48,993 INFO:  * Restarting with stat
+2025-01-03 14:16:49,253 WARNING:  * Debugger is active!
+2025-01-03 14:16:49,257 INFO:  * Debugger PIN: 398-547-792
+2025-01-03 14:17:11,132 INFO: 127.0.0.1 - - [03/Jan/2025 14:17:11] "GET /dashboard?page=1&search= HTTP/1.1" 200 -
+2025-01-03 14:17:11,270 INFO: 127.0.0.1 - - [03/Jan/2025 14:17:11] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-01-03 14:17:11,271 INFO: 127.0.0.1 - - [03/Jan/2025 14:17:11] "GET /static/js/dark_mode.js HTTP/1.1" 200 -
+2025-01-03 14:17:49,120 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-03 14:17:49,121 INFO: [33mPress CTRL+C to quit[0m
+2025-01-03 14:17:49,125 INFO:  * Restarting with stat
+2025-01-03 14:17:49,381 WARNING:  * Debugger is active!
+2025-01-03 14:17:49,386 INFO:  * Debugger PIN: 398-547-792
+2025-01-03 14:17:51,577 INFO: 127.0.0.1 - - [03/Jan/2025 14:17:51] "GET / HTTP/1.1" 200 -
+2025-01-03 14:17:51,710 INFO: 127.0.0.1 - - [03/Jan/2025 14:17:51] "GET /static/js/dark_mode.js HTTP/1.1" 200 -
+2025-01-03 14:17:51,711 INFO: 127.0.0.1 - - [03/Jan/2025 14:17:51] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-01-03 14:17:53,305 INFO: User 'admin' logged in.
+2025-01-03 14:17:53,305 INFO: 127.0.0.1 - - [03/Jan/2025 14:17:53] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-01-03 14:17:53,324 INFO: 127.0.0.1 - - [03/Jan/2025 14:17:53] "GET /dashboard HTTP/1.1" 200 -
+2025-01-03 14:17:53,344 INFO: 127.0.0.1 - - [03/Jan/2025 14:17:53] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-03 14:17:53,347 INFO: 127.0.0.1 - - [03/Jan/2025 14:17:53] "[36mGET /static/js/dark_mode.js HTTP/1.1[0m" 304 -

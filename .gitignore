@@ -1,0 +1,7 @@
+# .gitignore
+*.pyc
+__pycache__/
+.env
+clinic.db
+uploads/
+app.log
